@@ -2,7 +2,7 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
 
-**MADS** (_Mathematics, Algorithms, Data Structures_) is a set of JavaScript utilities for working with various mathematical functions, algorithms and data structures.
+**MADS** (_Mathematics, Algorithms, Data Structures_) is a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
 
 > **Note:** documentation and examples for each package are published in their respectives [READMEs](#installation). Please, refer to those resources for installation details and API references.
 
