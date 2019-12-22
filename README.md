@@ -8,10 +8,11 @@
 
 ## Installation
 
-| Package                              | Version                                                                                                        | Dependencies                                                                                                                      |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [`mads-graph`](/packages/mads-graph) | [![npm](https://img.shields.io/npm/v/mads-graph.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-graph) | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-graph)](https://www.npmjs.com/package/mads-graph) |
-| [`mads-utils`](/packages/mads-utils) | [![npm](https://img.shields.io/npm/v/mads-utils.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-utils) | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-utils)](https://www.npmjs.com/package/mads-utils) |
+| Package                                      | Version                                                                                                                | Dependencies                                                                                                                              |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [`mads-constants`](/packages/mads-constants) | [![npm](https://img.shields.io/npm/v/mads-constants.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-constants) | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-constants)](https://www.npmjs.com/package/mads-constants) |
+| [`mads-graph`](/packages/mads-graph)         | [![npm](https://img.shields.io/npm/v/mads-graph.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-graph)         | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-graph)](https://www.npmjs.com/package/mads-graph)         |
+| [`mads-utils`](/packages/mads-utils)         | [![npm](https://img.shields.io/npm/v/mads-utils.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-utils)         | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-utils)](https://www.npmjs.com/package/mads-utils)         |
 
 ## Contributing
 
