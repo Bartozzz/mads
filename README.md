@@ -14,6 +14,7 @@
 | [`mads-easings`](/packages/mads-easings)     | [![npm](https://img.shields.io/npm/v/mads-easings.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-easings)     | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-easings)](https://www.npmjs.com/package/mads-easings)     |
 | [`mads-graph`](/packages/mads-graph)         | [![npm](https://img.shields.io/npm/v/mads-graph.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-graph)         | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-graph)](https://www.npmjs.com/package/mads-graph)         |
 | [`mads-utils`](/packages/mads-utils)         | [![npm](https://img.shields.io/npm/v/mads-utils.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-utils)         | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-utils)](https://www.npmjs.com/package/mads-utils)         |
+| [`mads-vec2`](/packages/mads-vec2)           | [![npm](https://img.shields.io/npm/v/mads-vec2.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-vec2)           | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-vec2)](https://www.npmjs.com/package/mads-vec2)           |
 
 ## Contributing
 
