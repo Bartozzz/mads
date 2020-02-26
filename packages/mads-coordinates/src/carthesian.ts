@@ -28,7 +28,7 @@ export function nearness(point: IPoint) {
 }
 
 /**
- * Returns +1 if `a` is nearer than `b` in the carthesian space. Returns -1
+ * Returns +1 if `a` is nearer than `b` in the cartesian space. Returns -1
  * otherwise.
  *
  * @param   a   A point in 3D space

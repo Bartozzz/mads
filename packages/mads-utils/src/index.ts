@@ -11,7 +11,7 @@ export function isPowerOfTwo(input: number) {
 /**
  * @see https://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
  */
-export function rountToPowerOfTwo(input: number) {
+export function roundToPowerOfTwo(input: number) {
   if (input === 0) {
     return 1;
   }

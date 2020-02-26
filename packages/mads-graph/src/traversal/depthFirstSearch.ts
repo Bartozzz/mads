@@ -17,7 +17,7 @@ export function DFS<T>(graph: Graph<T>, node: T, seen: Set<T> = new Set()) {
 
   seen.add(node);
 
-  for (let neighbor of neighbors) {
+  for (const neighbor of neighbors) {
     if (!seen.has(neighbor)) {
       DFS(graph, neighbor, seen);
     }

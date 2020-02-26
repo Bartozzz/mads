@@ -2,7 +2,7 @@ import { Graph } from "../src/index";
 
 describe("mads-graph", () => {
   it("exposes the public API", () => {
-    let graph = new Graph();
+    const graph = new Graph();
 
     expect(graph.addNode).toBeInstanceOf(Function);
     expect(graph.removeNode).toBeInstanceOf(Function);

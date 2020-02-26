@@ -35,8 +35,8 @@ export class Graph<T = any> {
    */
   public removeNode(x: T) {
     if (this.adjacencyList.has(x)) {
-      for (let a of this.adjacencyList.keys()) {
-        for (let b of this.neighbors(a)) {
+      for (const a of this.adjacencyList.keys()) {
+        for (const b of this.neighbors(a)) {
           if (b === x) {
             this.removeEdge(a, b);
           }
