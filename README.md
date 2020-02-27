@@ -20,6 +20,45 @@
 
 ## Contributing
 
+### Development
+
+We have prepared multiple commands to help you develop `mads` on your own. You will need a local copy of [Node.js](https://nodejs.org/en/) installed on your machine. Then, follow the steps bellow:
+
+1.  Install [`lerna`](https://github.com/lerna/lerna) globally:
+
+    ```bash
+    $ npm install -g lerna
+    ```
+
+2.  Install project dependencies:
+
+    ```bash
+    $ npm install
+    ```
+
+3.  Install packages dependencies and link them together:
+
+    ```bash
+    $ npm run bootstrap
+    ```
+
+#### Usage
+
+```bash
+$ npm run <command>
+```
+
+#### List of commands
+
+| Command     | Description                                                   |
+| :---------- | :------------------------------------------------------------ |
+| `bootstrap` | Links local packages together and install their dependencies. |
+| `build`     | Builds all packages.                                          |
+| `start`     | Starts tests in watch mode for all packages.                  |
+| `test`      | Alias for `npm run test:unit` and `npm run test:lint`.        |
+| `test:unit` | Starts units tests for all packages.                          |
+| `test:lint` | Starts linters for all packages.                              |
+
 ### License
 
 **MADS** was created and developed by [Bartosz Łaniewski](https://github.com/Bartozzz). The full list of contributors can be found [here](https://github.com/Bartozzz/mads/graphs/contributors). Each package is [MIT licensed](https://github.com/Bartozzz/mads/blob/master/LICENSE), except for packages that provide a different LICENSE file.
