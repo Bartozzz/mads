@@ -17,6 +17,7 @@
 | [`mads-utils`](/packages/mads-utils)             | [![npm](https://img.shields.io/npm/v/mads-utils.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-utils)             | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-utils)](https://www.npmjs.com/package/mads-utils)             |
 | [`mads-vec2`](/packages/mads-vec2)               | [![npm](https://img.shields.io/npm/v/mads-vec2.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-vec2)               | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-vec2)](https://www.npmjs.com/package/mads-vec2)               |
 | [`mads-vec3`](/packages/mads-vec3)               | [![npm](https://img.shields.io/npm/v/mads-vec3.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-vec3)               | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-vec3)](https://www.npmjs.com/package/mads-vec3)               |
+| <!-- Inject auto-generated packages -->          |
 
 ## Contributing
 
@@ -58,6 +59,14 @@ $ npm run <command>
 | `test`      | Alias for `npm run test:unit` and `npm run test:lint`.        |
 | `test:unit` | Starts units tests for all packages.                          |
 | `test:lint` | Starts linters for all packages.                              |
+
+### Scaffolding
+
+We use [Hygen](https://www.hygen.io/) to create new ready-to-develop packages for MADS. If you want to automatically create a new package, run the following command and follow the prompt tips:
+
+```bash
+$ npx hygen package new
+```
 
 ### License
 
