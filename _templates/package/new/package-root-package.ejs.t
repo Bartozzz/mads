@@ -22,9 +22,11 @@ sh: cd <%= cwd %>/packages/<%= name %> && npm install
     "node": ">=6.0.0"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "npm run clear",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
-    "clear": "rimraf dist coverage",
+    "postbuild": "npm run docs",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --readme none --out ./docs --name \\`<%= name %>\\`",
+    "clear": "rimraf dist coverage docs",
     "start": "jest --watch",
     "test": "npm run test:lint && npm run test:unit",
     "test:unit": "jest --coverage",

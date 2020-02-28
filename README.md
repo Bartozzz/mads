@@ -4,7 +4,7 @@
 
 **MADS** (_Mathematics, Algorithms, Data Structures_) is a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
 
-> **Note:** documentation and examples for each package are published in their respectives [READMEs](#installation). Please, refer to those resources for installation details and API references.
+> **Note:** documentation and examples for each package are published in their respective [READMEs](#installation). Please, refer to those resources for installation details and API references.
 
 ## Installation
 
@@ -55,6 +55,7 @@ $ npm run <command>
 | :---------- | :------------------------------------------------------------ |
 | `bootstrap` | Links local packages together and install their dependencies. |
 | `build`     | Builds all packages.                                          |
+| `docs`      | Builds documentation for all packages.                        |
 | `start`     | Starts tests in watch mode for all packages.                  |
 | `test`      | Alias for `npm run test:unit` and `npm run test:lint`.        |
 | `test:unit` | Starts units tests for all packages.                          |

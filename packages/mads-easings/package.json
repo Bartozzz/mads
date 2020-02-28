@@ -18,8 +18,10 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "npm run clear",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
+    "postbuild": "npm run docs",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --readme none --out ./docs --name \\`mads-easings\\`",
     "clear": "rimraf dist coverage",
     "start": "jest --watch",
     "test": "npm run test:lint && npm run test:unit",
