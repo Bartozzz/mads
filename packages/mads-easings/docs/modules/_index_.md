@@ -35,7 +35,7 @@
 
 • **easeInCubic**: *(Anonymous function)* = easeIn(3)
 
-*Defined in [index.ts:22](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L22)*
+*Defined in [index.ts:22](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L22)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **easeInOutCubic**: *(Anonymous function)* = easeInOut(3)
 
-*Defined in [index.ts:24](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L24)*
+*Defined in [index.ts:24](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L24)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **easeInOutQuad**: *(Anonymous function)* = easeInOut(2)
 
-*Defined in [index.ts:21](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L21)*
+*Defined in [index.ts:21](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L21)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **easeInOutQuart**: *(Anonymous function)* = easeInOut(4)
 
-*Defined in [index.ts:27](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L27)*
+*Defined in [index.ts:27](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L27)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **easeInOutQuint**: *(Anonymous function)* = easeInOut(5)
 
-*Defined in [index.ts:30](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L30)*
+*Defined in [index.ts:30](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L30)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **easeInQuad**: *(Anonymous function)* = easeIn(2)
 
-*Defined in [index.ts:19](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L19)*
+*Defined in [index.ts:19](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L19)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **easeInQuart**: *(Anonymous function)* = easeIn(4)
 
-*Defined in [index.ts:25](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L25)*
+*Defined in [index.ts:25](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L25)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **easeInQuint**: *(Anonymous function)* = easeIn(5)
 
-*Defined in [index.ts:28](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L28)*
+*Defined in [index.ts:28](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L28)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 • **easeOutCubic**: *(Anonymous function)* = easeOut(3)
 
-*Defined in [index.ts:23](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L23)*
+*Defined in [index.ts:23](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L23)*
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 • **easeOutQuad**: *(Anonymous function)* = easeOut(2)
 
-*Defined in [index.ts:20](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L20)*
+*Defined in [index.ts:20](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L20)*
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 • **easeOutQuart**: *(Anonymous function)* = easeOut(4)
 
-*Defined in [index.ts:26](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L26)*
+*Defined in [index.ts:26](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L26)*
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 • **easeOutQuint**: *(Anonymous function)* = easeOut(5)
 
-*Defined in [index.ts:29](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L29)*
+*Defined in [index.ts:29](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L29)*
 
 ___
 
@@ -131,7 +131,7 @@ ___
 
 • **linear**: *(Anonymous function)* = easeIn(1)
 
-*Defined in [index.ts:18](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L18)*
+*Defined in [index.ts:18](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L18)*
 
 ## Functions
 
@@ -139,7 +139,7 @@ ___
 
 ▸ **easeIn**(`p`: number): *(Anonymous function)*
 
-*Defined in [index.ts:6](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L6)*
+*Defined in [index.ts:6](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L6)*
 
 !
 Most of the easing functions were taken from:
@@ -158,7 +158,7 @@ ___
 
 ▸ **easeInOut**(`p`: number): *(Anonymous function)*
 
-*Defined in [index.ts:14](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L14)*
+*Defined in [index.ts:14](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L14)*
 
 **Parameters:**
 
@@ -174,7 +174,7 @@ ___
 
 ▸ **easeInOutSin**(`t`: number): *number*
 
-*Defined in [index.ts:40](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L40)*
+*Defined in [index.ts:40](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L40)*
 
 **Parameters:**
 
@@ -190,7 +190,7 @@ ___
 
 ▸ **easeInSin**(`t`: number): *number*
 
-*Defined in [index.ts:32](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L32)*
+*Defined in [index.ts:32](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L32)*
 
 **Parameters:**
 
@@ -206,7 +206,7 @@ ___
 
 ▸ **easeOut**(`p`: number): *(Anonymous function)*
 
-*Defined in [index.ts:10](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L10)*
+*Defined in [index.ts:10](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L10)*
 
 **Parameters:**
 
@@ -222,7 +222,7 @@ ___
 
 ▸ **easeOutSin**(`t`: number): *number*
 
-*Defined in [index.ts:36](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-easings/src/index.ts#L36)*
+*Defined in [index.ts:36](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-easings/src/index.ts#L36)*
 
 **Parameters:**
 

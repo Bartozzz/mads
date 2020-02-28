@@ -18,7 +18,7 @@
 
 • **LOG10E**: *number* = Math.LOG10E || 0.4342945
 
-*Defined in [index.ts:4](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-constants/src/index.ts#L4)*
+*Defined in [index.ts:4](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-constants/src/index.ts#L4)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **LOG2E**: *number* = Math.LOG2E || 1.442695
 
-*Defined in [index.ts:5](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-constants/src/index.ts#L5)*
+*Defined in [index.ts:5](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-constants/src/index.ts#L5)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **PI**: *number* = Math.PI
 
-*Defined in [index.ts:1](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-constants/src/index.ts#L1)*
+*Defined in [index.ts:1](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-constants/src/index.ts#L1)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **PI180**: *number* = PI / 180
 
-*Defined in [index.ts:2](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-constants/src/index.ts#L2)*
+*Defined in [index.ts:2](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-constants/src/index.ts#L2)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **PI180_REV**: *number* = 180 / PI
 
-*Defined in [index.ts:3](https://github.com/Bartozzz/mads/blob/6d75697/packages/mads-constants/src/index.ts#L3)*
+*Defined in [index.ts:3](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-constants/src/index.ts#L3)*
