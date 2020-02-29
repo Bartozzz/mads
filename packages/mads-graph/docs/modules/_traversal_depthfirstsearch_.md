@@ -14,7 +14,7 @@
 
 ▸ **DFS**<**T**>(`graph`: [Graph](../classes/_graph_.graph.md)‹T›, `node`: T, `seen`: Set‹T›): *Set‹T›*
 
-*Defined in [traversal/depthFirstSearch.ts:15](https://github.com/Bartozzz/mads/blob/506fbba/packages/mads-graph/src/traversal/depthFirstSearch.ts#L15)*
+*Defined in [traversal/depthFirstSearch.ts:15](https://github.com/Bartozzz/mads/blob/4ce526b/packages/mads-graph/src/traversal/depthFirstSearch.ts#L15)*
 
 Depth-first search is an algorithm for traversing graph data structures. The
 algorithm starts at the root node and explores as far as possible along each
