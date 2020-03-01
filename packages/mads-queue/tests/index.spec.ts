@@ -1,14 +1,6 @@
 import { Queue } from "../src";
 
 describe("mads-queue", () => {
-  it("exposes the public API", () => {
-    const queue = new Queue();
-
-    expect(queue.list).toBeInstanceOf(Array);
-    expect(queue.enqueue).toBeInstanceOf(Function);
-    expect(queue.dequeue).toBeInstanceOf(Function);
-  });
-
   describe("enqueue", () => {
     let queue: Queue;
 
