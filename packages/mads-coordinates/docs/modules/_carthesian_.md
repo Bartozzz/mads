@@ -24,8 +24,6 @@
 
 ▸ **coordinatesToIndex**(`width`: number, `__namedParameters`: [number, number]): *number*
 
-*Defined in [carthesian.ts:7](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L7)*
-
 **Parameters:**
 
 Name | Type |
@@ -41,8 +39,6 @@ ___
 
 ▸ **indexToCoordinates**(`width`: number, `index`: number): *number[]*
 
-*Defined in [carthesian.ts:11](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L11)*
-
 **Parameters:**
 
 Name | Type |
@@ -57,8 +53,6 @@ ___
 ###  nearness
 
 ▸ **nearness**(`point`: [IPoint](../interfaces/_carthesian_.ipoint.md)): *number*
-
-*Defined in [carthesian.ts:26](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L26)*
 
 Calculates the "nearness" of a isometric object. In our coordinate space, the
 farthest sprite has the lowest x and y coordinates.
@@ -79,8 +73,6 @@ ___
 
 ▸ **orderByDistance**(`a`: [IPoint](../interfaces/_carthesian_.ipoint.md), `b`: [IPoint](../interfaces/_carthesian_.ipoint.md)): *1 | -1*
 
-*Defined in [carthesian.ts:37](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L37)*
-
 Returns +1 if `a` is nearer than `b` in the cartesian space. Returns -1
 otherwise.
 
@@ -99,8 +91,6 @@ ___
 
 ▸ **orderByX**(`a`: [IPoint](../interfaces/_carthesian_.ipoint.md), `b`: [IPoint](../interfaces/_carthesian_.ipoint.md)): *1 | -1*
 
-*Defined in [carthesian.ts:57](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L57)*
-
 Returns +1 if `a` is nearer than `b` on the X axis. Returns -1 otherwise.
 
 **Parameters:**
@@ -118,8 +108,6 @@ ___
 
 ▸ **orderByY**(`a`: [IPoint](../interfaces/_carthesian_.ipoint.md), `b`: [IPoint](../interfaces/_carthesian_.ipoint.md)): *1 | -1*
 
-*Defined in [carthesian.ts:47](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L47)*
-
 Returns +1 if `a` is nearer than `b` on the Y axis. Returns -1 otherwise.
 
 **Parameters:**
@@ -136,8 +124,6 @@ ___
 ###  orderByZ
 
 ▸ **orderByZ**(`a`: [IPoint](../interfaces/_carthesian_.ipoint.md), `b`: [IPoint](../interfaces/_carthesian_.ipoint.md)): *1 | -1*
-
-*Defined in [carthesian.ts:67](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L67)*
 
 Returns +1 if `a` is nearer than `b` on the Z axis. Returns -1 otherwise.
 

@@ -45,8 +45,6 @@
 
 \+ **new Vector2**(`x`: number, `y`: number): *[Vector2](_index_.vector2.md)*
 
-*Defined in [index.ts:1](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L1)*
-
 **Parameters:**
 
 Name | Type | Default |
@@ -62,23 +60,17 @@ Name | Type | Default |
 
 • **x**: *number*
 
-*Defined in [index.ts:2](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L2)*
-
 ___
 
 ###  y
 
 • **y**: *number*
 
-*Defined in [index.ts:2](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L2)*
-
 ## Accessors
 
 ###  length
 
 • **get length**(): *number*
-
-*Defined in [index.ts:4](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L4)*
 
 **Returns:** *number*
 
@@ -87,8 +79,6 @@ ___
 ###  add
 
 ▸ **add**(`vector`: [Vector2](_index_.vector2.md)): *void*
-
-*Defined in [index.ts:11](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L11)*
 
 **Parameters:**
 
@@ -104,8 +94,6 @@ ___
 
 ▸ **clone**(): *[Vector2](_index_.vector2.md)‹›*
 
-*Defined in [index.ts:65](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L65)*
-
 **Returns:** *[Vector2](_index_.vector2.md)‹›*
 
 ___
@@ -113,8 +101,6 @@ ___
 ###  distance
 
 ▸ **distance**(`vector`: [Vector2](_index_.vector2.md)): *number*
-
-*Defined in [index.ts:57](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L57)*
 
 **Parameters:**
 
@@ -130,8 +116,6 @@ ___
 
 ▸ **divide**(`vector`: [Vector2](_index_.vector2.md)): *void*
 
-*Defined in [index.ts:31](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L31)*
-
 **Parameters:**
 
 Name | Type |
@@ -145,8 +129,6 @@ ___
 ###  dot
 
 ▸ **dot**(`vector`: [Vector2](_index_.vector2.md)): *number*
-
-*Defined in [index.ts:61](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L61)*
 
 **Parameters:**
 
@@ -162,8 +144,6 @@ ___
 
 ▸ **equals**(`vector`: [Vector2](_index_.vector2.md)): *boolean*
 
-*Defined in [index.ts:53](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L53)*
-
 **Parameters:**
 
 Name | Type |
@@ -177,8 +157,6 @@ ___
 ###  multiply
 
 ▸ **multiply**(`vector`: [Vector2](_index_.vector2.md)): *void*
-
-*Defined in [index.ts:26](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L26)*
 
 **Parameters:**
 
@@ -194,8 +172,6 @@ ___
 
 ▸ **normalize**(): *void*
 
-*Defined in [index.ts:36](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L36)*
-
 **Returns:** *void*
 
 ___
@@ -203,8 +179,6 @@ ___
 ###  rotate
 
 ▸ **rotate**(`angle`: number): *void*
-
-*Defined in [index.ts:42](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L42)*
 
 **Parameters:**
 
@@ -220,8 +194,6 @@ ___
 
 ▸ **scale**(`scalar`: number): *void*
 
-*Defined in [index.ts:21](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L21)*
-
 **Parameters:**
 
 Name | Type |
@@ -235,8 +207,6 @@ ___
 ###  sub
 
 ▸ **sub**(`vector`: [Vector2](_index_.vector2.md)): *void*
-
-*Defined in [index.ts:16](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L16)*
 
 **Parameters:**
 
@@ -252,8 +222,6 @@ ___
 
 ▸ **toArray**(): *number[]*
 
-*Defined in [index.ts:73](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L73)*
-
 **Returns:** *number[]*
 
 ___
@@ -262,8 +230,6 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [index.ts:69](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L69)*
-
 **Returns:** *string*
 
 ___
@@ -271,8 +237,6 @@ ___
 ### `Static` distance
 
 ▸ **distance**(`a`: [Vector2](_index_.vector2.md), `b`: [Vector2](_index_.vector2.md)): *number*
-
-*Defined in [index.ts:81](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L81)*
 
 **Parameters:**
 
@@ -288,8 +252,6 @@ ___
 ### `Static` dot
 
 ▸ **dot**(`a`: [Vector2](_index_.vector2.md), `b`: [Vector2](_index_.vector2.md)): *number*
-
-*Defined in [index.ts:77](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-vec2/src/index.ts#L77)*
 
 **Parameters:**
 

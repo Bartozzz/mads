@@ -37,8 +37,6 @@
 
 \+ **new Stack**(`list`: T[]): *[Stack](_index_.stack.md)*
 
-*Defined in [index.ts:1](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L1)*
-
 **Parameters:**
 
 Name | Type | Default |
@@ -53,15 +51,11 @@ Name | Type | Default |
 
 • **list**: *T[]*
 
-*Defined in [index.ts:2](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L2)*
-
 ## Accessors
 
 ###  isEmpty
 
 • **get isEmpty**(): *boolean*
-
-*Defined in [index.ts:4](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L4)*
 
 **Returns:** *boolean*
 
@@ -71,8 +65,6 @@ Name | Type | Default |
 
 ▸ **clone**(): *[Stack](_index_.stack.md)‹T›*
 
-*Defined in [index.ts:16](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L16)*
-
 **Returns:** *[Stack](_index_.stack.md)‹T›*
 
 ___
@@ -81,8 +73,6 @@ ___
 
 ▸ **pop**(): *undefined | T*
 
-*Defined in [index.ts:12](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L12)*
-
 **Returns:** *undefined | T*
 
 ___
@@ -90,8 +80,6 @@ ___
 ###  push
 
 ▸ **push**(`x`: T): *void*
-
-*Defined in [index.ts:8](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L8)*
 
 **Parameters:**
 
@@ -106,7 +94,5 @@ ___
 ###  toString
 
 ▸ **toString**(): *string*
-
-*Defined in [index.ts:20](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-stack/src/index.ts#L20)*
 
 **Returns:** *string*

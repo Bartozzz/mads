@@ -1,6 +1,6 @@
-[`mads-easings`](README.md)
+[`mads-easing`](README.md)
 
-# `mads-easings`
+# `mads-easing`
 
 ## Index
 

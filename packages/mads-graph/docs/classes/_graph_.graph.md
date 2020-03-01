@@ -40,15 +40,11 @@ structure usually includes.
 
 • **adjacencyList**: *Map‹T, T[]›* = new Map()
 
-*Defined in [Graph.ts:12](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L12)*
-
 ## Methods
 
 ###  addEdge
 
 ▸ **addEdge**(`x`: T, `y`: T): *this*
-
-*Defined in [Graph.ts:60](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L60)*
 
 Adds the edge from the node x to the node y, if it is not there.
 Time complexity cost: O(1).
@@ -70,8 +66,6 @@ ___
 
 ▸ **addNode**(`x`: T): *this*
 
-*Defined in [Graph.ts:21](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L21)*
-
 Adds the node x, if it is not there.
 Time complexity cost: O(1).
 
@@ -90,8 +84,6 @@ ___
 ###  adjacent
 
 ▸ **adjacent**(`x`: T, `y`: T): *boolean*
-
-*Defined in [Graph.ts:114](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L114)*
 
 Tests whether there is an edge from the node x to the node y.
 Time complexity cost: O(Card(V)).
@@ -113,8 +105,6 @@ ___
 
 ▸ **neighbors**(`x`: T): *T[]*
 
-*Defined in [Graph.ts:98](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L98)*
-
 Lists all nodes y such that there is an edge from the node x to the node y.
 Time complexity cost: O(1).
 
@@ -133,8 +123,6 @@ ___
 ###  removeEdge
 
 ▸ **removeEdge**(`x`: T, `y`: T): *this*
-
-*Defined in [Graph.ts:80](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L80)*
 
 Removes the edge from the node x to the node y, if it is there.
 Time complexity cost: O(Card(V)).
@@ -155,8 +143,6 @@ ___
 ###  removeNode
 
 ▸ **removeNode**(`x`: T): *this*
-
-*Defined in [Graph.ts:36](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-graph/src/Graph.ts#L36)*
 
 Removes the node x, if it is there.
 Time complexity cost: O(Card(E)).

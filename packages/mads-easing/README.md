@@ -1,6 +1,6 @@
-# `mads-easings`
+# `mads-easing`
 
-> `mads-easings` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+> `mads-easing` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
 
 ## Documentation
 

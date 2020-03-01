@@ -22,8 +22,6 @@
 
 ▸ **clamp**(`input`: number, `min`: number, `max`: number): *number*
 
-*Defined in [mads-utils/src/index.ts:52](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L52)*
-
 Clamps a number between a minimum and maximum value. Assumes that min < max.
 
 **Parameters:**
@@ -42,8 +40,6 @@ ___
 
 ▸ **isPowerOfTwo**(`input`: number): *boolean*
 
-*Defined in [mads-utils/src/index.ts:7](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L7)*
-
 **Parameters:**
 
 Name | Type |
@@ -57,8 +53,6 @@ ___
 ###  lerp
 
 ▸ **lerp**(`a`: number, `b`: number, `t`: number): *number*
-
-*Defined in [mads-utils/src/index.ts:73](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L73)*
 
 Linearly interpolates between a and b by the interpolant t. The parameter t
 is clamped to the range [0, 1].
@@ -88,8 +82,6 @@ ___
 
 ▸ **randomFloat**(`min`: number, `max`: number): *number*
 
-*Defined in [mads-utils/src/index.ts:41](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L41)*
-
 **Parameters:**
 
 Name | Type |
@@ -105,8 +97,6 @@ ___
 
 ▸ **randomInt**(`min`: number, `max`: number): *number*
 
-*Defined in [mads-utils/src/index.ts:37](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L37)*
-
 **Parameters:**
 
 Name | Type |
@@ -121,8 +111,6 @@ ___
 ###  roundToPowerOfTwo
 
 ▸ **roundToPowerOfTwo**(`input`: number): *number*
-
-*Defined in [mads-utils/src/index.ts:14](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L14)*
 
 **`see`** https://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
 
@@ -140,8 +128,6 @@ ___
 
 ▸ **sign**(`input`: number): *number*
 
-*Defined in [mads-utils/src/index.ts:3](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L3)*
-
 **Parameters:**
 
 Name | Type |
@@ -156,8 +142,6 @@ ___
 
 ▸ **toDegrees**(`radians`: number): *number*
 
-*Defined in [mads-utils/src/index.ts:29](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L29)*
-
 **Parameters:**
 
 Name | Type |
@@ -171,8 +155,6 @@ ___
 ###  toRadians
 
 ▸ **toRadians**(`degrees`: number): *number*
-
-*Defined in [mads-utils/src/index.ts:33](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-utils/src/index.ts#L33)*
 
 **Parameters:**
 

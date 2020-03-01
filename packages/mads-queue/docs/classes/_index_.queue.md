@@ -44,8 +44,6 @@ include.
 
 \+ **new Queue**(`list`: T[]): *[Queue](_index_.queue.md)*
 
-*Defined in [index.ts:10](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L10)*
-
 **Parameters:**
 
 Name | Type | Default |
@@ -60,15 +58,11 @@ Name | Type | Default |
 
 • **list**: *T[]*
 
-*Defined in [index.ts:11](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L11)*
-
 ## Accessors
 
 ###  isEmpty
 
 • **get isEmpty**(): *boolean*
-
-*Defined in [index.ts:13](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L13)*
 
 **Returns:** *boolean*
 
@@ -78,8 +72,6 @@ Name | Type | Default |
 
 ▸ **clone**(): *[Queue](_index_.queue.md)‹T›*
 
-*Defined in [index.ts:35](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L35)*
-
 **Returns:** *[Queue](_index_.queue.md)‹T›*
 
 ___
@@ -87,8 +79,6 @@ ___
 ###  dequeue
 
 ▸ **dequeue**(): *undefined | T*
-
-*Defined in [index.ts:31](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L31)*
 
 Removes and return the element from the front terminal position.
 Time complexity cost: O(1).
@@ -100,8 +90,6 @@ ___
 ###  enqueue
 
 ▸ **enqueue**(`x`: T): *void*
-
-*Defined in [index.ts:23](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L23)*
 
 Adds the element x to the queue.
 Time complexity cost: O(1).
@@ -119,7 +107,5 @@ ___
 ###  toString
 
 ▸ **toString**(): *string*
-
-*Defined in [index.ts:39](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-queue/src/index.ts#L39)*
 
 **Returns:** *string*

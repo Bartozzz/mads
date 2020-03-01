@@ -1,6 +1,6 @@
 ---
 to: packages/<%= name %>/package.json
-sh: cd <%= cwd %>/packages/<%= name %> && npm install
+sh: npm run bootstrap
 ---
 {
   "name": "<%= name %>",
@@ -26,7 +26,24 @@ sh: cd <%= cwd %>/packages/<%= name %> && npm install
     "prebuild": "npm run clear",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "postbuild": "npm run docs",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --readme none --out ./docs --name \\`<%= name %>\\`",
+    "docs": "typedoc --plugin typedoc-plugin-markdown --readme none --hideSources --out ./docs --name \\`<%= name %>\\`",
     "clear": "rimraf dist coverage docs"
+  },
+  "devDependencies": {
+    "@types/lodash.camelcase": "^4.3.6",
+    "@types/rollup-plugin-json": "^3.0.2",
+    "@types/rollup-plugin-sourcemaps": "^0.4.2",
+    "lodash.camelcase": "^4.3.0",
+    "rimraf": "^3.0.2",
+    "rollup": "^1.32.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sourcemaps": "^0.5.0",
+    "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.26.0",
+    "typedoc": "^0.16.11",
+    "typedoc-plugin-markdown": "^2.2.17",
+    "typescript": "^3.8.3"
   }
 }
