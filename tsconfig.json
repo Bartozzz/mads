@@ -16,7 +16,5 @@
     "paths": {
       "mads-*": ["./packages/mads-*/src/index.ts"]
     }
-  },
-
-  "include": ["./packages/mads-*/src/**/*.ts"]
+  }
 }
