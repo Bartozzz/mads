@@ -20,7 +20,7 @@
 
 • **x**: *number*
 
-*Defined in [carthesian.ts:2](https://github.com/Bartozzz/mads/blob/4ce526b/packages/mads-coordinates/src/carthesian.ts#L2)*
+*Defined in [carthesian.ts:2](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L2)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **y**: *number*
 
-*Defined in [carthesian.ts:3](https://github.com/Bartozzz/mads/blob/4ce526b/packages/mads-coordinates/src/carthesian.ts#L3)*
+*Defined in [carthesian.ts:3](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L3)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **z**: *number*
 
-*Defined in [carthesian.ts:4](https://github.com/Bartozzz/mads/blob/4ce526b/packages/mads-coordinates/src/carthesian.ts#L4)*
+*Defined in [carthesian.ts:4](https://github.com/Bartozzz/mads/blob/38b6193/packages/mads-coordinates/src/carthesian.ts#L4)*

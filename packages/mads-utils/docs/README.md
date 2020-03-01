@@ -6,4 +6,5 @@
 
 ### External modules
 
-* ["index"](modules/_index_.md)
+* ["mads-constants/src/index"](modules/_mads_constants_src_index_.md)
+* ["mads-utils/src/index"](modules/_mads_utils_src_index_.md)

@@ -5,9 +5,12 @@ module.exports = {
     ".ts": "ts-jest"
   },
 
-  testEnvironment: "node",
-  testRegex: "(/tests/.*|\\.(test|spec))\\.(ts|js)$",
+  moduleNameMapper: {
+    "^mads-(.*)$": "<rootDir>/packages/mads-$1/src/index.ts"
+  },
 
-  coveragePathIgnorePatterns: ["/node_modules/"],
-  collectCoverageFrom: ["src/*.{js,ts}"]
+  testEnvironment: "node",
+  testRegex: "(/tests/.*.(test|spec))\\.(ts|js)$",
+
+  collectCoverageFrom: ["<rootDir>/packages/mads-*/src/*.{js,ts}"]
 };

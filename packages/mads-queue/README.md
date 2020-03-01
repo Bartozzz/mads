@@ -1,7 +1,5 @@
 # `mads-queue`
 
-
-
 > `mads-queue` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
 
 ## Documentation
@@ -26,14 +24,10 @@ $ npm run <command>
 
 #### List of commands
 
-| Command     | Description                                                   |
-| :---------- | :------------------------------------------------------------ |
-| `build`     | Builds packages.                                              |
-| `docs`      | Builds documentation.                                         |
-| `start`     | Starts tests in watch mode.                                   |
-| `test`      | Alias for `npm run test:unit` and `npm run test:lint`.        |
-| `test:unit` | Starts units tests.                                           |
-| `test:lint` | Starts linters.                                               |
+| Command | Description           |
+| :------ | :-------------------- |
+| `build` | Builds packages.      |
+| `docs`  | Builds documentation. |
 
 ### License
 

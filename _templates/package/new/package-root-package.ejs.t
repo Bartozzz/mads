@@ -4,6 +4,7 @@ sh: cd <%= cwd %>/packages/<%= name %> && npm install
 ---
 {
   "name": "<%= name %>",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "<%= description %>",
   "homepage": "https://github.com/Bartozzz/mads",
@@ -26,14 +27,6 @@ sh: cd <%= cwd %>/packages/<%= name %> && npm install
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "postbuild": "npm run docs",
     "docs": "typedoc --plugin typedoc-plugin-markdown --readme none --out ./docs --name \\`<%= name %>\\`",
-    "clear": "rimraf dist coverage docs",
-    "start": "jest --watch",
-    "test": "npm run test:lint && npm run test:unit",
-    "test:unit": "jest --coverage",
-    "test:lint": "eslint 'src/**/*.ts' 'tests/**/*.ts'"
-  },
-  "devDependencies": {
-    "@types/jest": "^25.1.3",
-    "@types/node": "^13.7.6"
+    "clear": "rimraf dist coverage docs"
   }
 }

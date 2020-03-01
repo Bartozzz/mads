@@ -29,14 +29,10 @@ $ npm run <command>
 
 #### List of commands
 
-| Command     | Description                                                   |
-| :---------- | :------------------------------------------------------------ |
-| `build`     | Builds packages.                                              |
-| `docs`      | Builds documentation.                                         |
-| `start`     | Starts tests in watch mode.                                   |
-| `test`      | Alias for `npm run test:unit` and `npm run test:lint`.        |
-| `test:unit` | Starts units tests.                                           |
-| `test:lint` | Starts linters.                                               |
+| Command | Description           |
+| :------ | :-------------------- |
+| `build` | Builds packages.      |
+| `docs`  | Builds documentation. |
 
 ### License
 
