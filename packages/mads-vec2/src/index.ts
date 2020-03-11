@@ -2,10 +2,7 @@ export class Vector2 {
   constructor(public x = 0, public y = 0) {}
 
   public get length() {
-    const x = this.x;
-    const y = this.y;
-
-    return Math.sqrt(x * x + y * y);
+    return Math.sqrt(this.x * this.x + this.y * this.y);
   }
 
   public add(vector: Vector2) {
@@ -34,8 +31,10 @@ export class Vector2 {
   }
 
   public normalize() {
-    this.x /= this.length;
-    this.y /= this.length;
+    const length = this.length;
+
+    this.x /= length;
+    this.y /= length;
   }
 
   // Angle in rad.
