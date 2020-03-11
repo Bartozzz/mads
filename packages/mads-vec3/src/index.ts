@@ -2,11 +2,7 @@ export class Vector3 {
   constructor(public x = 0, public y = 0, public z = 0) {}
 
   public get length() {
-    const x = this.x;
-    const y = this.y;
-    const z = this.z;
-
-    return Math.sqrt(x * x + y * y + z * z);
+    return Math.sqrt(this.x * this.x + this.y * this.y + this.z * this.z);
   }
 
   public add(vector: Vector3) {
@@ -40,9 +36,11 @@ export class Vector3 {
   }
 
   public normalize() {
-    this.x /= this.length;
-    this.y /= this.length;
-    this.z /= this.length;
+    const length = this.length;
+
+    this.x /= length;
+    this.y /= length;
+    this.z /= length;
   }
 
   public equals(vector: Vector3) {

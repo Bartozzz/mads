@@ -81,6 +81,7 @@ describe("mads-vec3", () => {
     const a = new Vector3(5, 0, 0);
     const b = new Vector3(0, -5, 0);
     const c = new Vector3(0, 0, -5);
+    const d = new Vector3(2, 3, 4);
 
     a.normalize();
     expect(a.length).toBe(1);
@@ -93,6 +94,12 @@ describe("mads-vec3", () => {
     c.normalize();
     expect(c.length).toBe(1);
     expect(c.z).toBe(-1);
+
+    d.normalize();
+    expect(d.length).toBeCloseTo(1);
+    expect(d.x).toBeCloseTo(0.371391, 5);
+    expect(d.y).toBeCloseTo(0.557086, 5);
+    expect(d.z).toBeCloseTo(0.742781, 5);
   });
 
   it("Vector3.equals", () => {
