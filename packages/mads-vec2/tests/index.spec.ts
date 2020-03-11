@@ -71,6 +71,7 @@ describe("mads-vec2", () => {
   it("Vector2.normalize", () => {
     const a = new Vector2(5, 0);
     const b = new Vector2(0, -5);
+    const c = new Vector2(2, 5);
 
     a.normalize();
     expect(a.length).toBe(1);
@@ -79,6 +80,11 @@ describe("mads-vec2", () => {
     b.normalize();
     expect(b.length).toBe(1);
     expect(b.y).toBe(-1);
+
+    c.normalize();
+    expect(c.length).toBeCloseTo(1);
+    expect(c.x).toBeCloseTo(0.37139068, 7);
+    expect(c.y).toBeCloseTo(0.92847669, 7);
   });
 
   it("Vector2.rotate", () => {
