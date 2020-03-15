@@ -1,6 +1,6 @@
 {
   "name": "mads-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "",
   "homepage": "https://github.com/Bartozzz/mads",
@@ -26,7 +26,7 @@
     "clear": "rimraf dist coverage"
   },
   "dependencies": {
-    "mads-constants": "1.0.0"
+    "mads-constants": "^1.0.1"
   },
   "devDependencies": {
     "@types/lodash.camelcase": "^4.3.6",
