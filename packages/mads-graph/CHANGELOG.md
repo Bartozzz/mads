@@ -6,11 +6,3 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## 1.0.1 (2020-03-15)
 
 **Note:** Version bump only for package mads-graph
-
-
-
-
-
-# 1.0.0 (2020-03-15)
-
-Initial release.
