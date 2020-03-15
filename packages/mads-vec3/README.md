@@ -1,6 +1,16 @@
 # `mads-vec3`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/mads-vec3/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/mads-vec3/package.json)
+[![npm](https://img.shields.io/npm/v/mads-vec3.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-vec3)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-vec3)](https://www.npmjs.com/package/mads-vec3)
+
 > `mads-vec3` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install mads-vec3
+```
 
 ## Documentation
 

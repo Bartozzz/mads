@@ -3,9 +3,19 @@ to: packages/<%= name %>/README.md
 ---
 # `<%= name %>`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/<%= name %>/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/<%= name %>/package.json)
+[![npm](https://img.shields.io/npm/v/<%= name %>.svg?maxAge=2592000)](https://www.npmjs.com/package/<%= name %>)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/<%= name %>)](https://www.npmjs.com/package/<%= name %>)
+
 <%= description %>
 
 > `<%= name %>` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install <%= name %>
+```
 
 ## Documentation
 

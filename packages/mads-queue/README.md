@@ -1,6 +1,16 @@
 # `mads-queue`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/mads-queue/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/mads-queue/package.json)
+[![npm](https://img.shields.io/npm/v/mads-queue.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-queue)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-queue)](https://www.npmjs.com/package/mads-queue)
+
 > `mads-queue` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install mads-queue
+```
 
 ## Documentation
 

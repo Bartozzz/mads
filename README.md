@@ -1,6 +1,7 @@
 # MADS
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lernajs.io/)
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=package.json)
 [![Default CI/CD](https://github.com/Bartozzz/mads/workflows/Default%20CI/CD/badge.svg)](https://github.com/Bartozzz/mads/actions)
 
 **MADS** (_Mathematics, Algorithms, Data Structures_) is a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
