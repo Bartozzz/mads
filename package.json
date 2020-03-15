@@ -3,8 +3,6 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --force-local",
-    "version": "lerna version --conventional-commits",
-    "publish": "lerna publish",
     "build": "lerna run build",
     "clear": "lerna run clear",
     "start": "jest --watch",
