@@ -1,6 +1,16 @@
 # `mads-constants`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/mads-constants/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/mads-constants/package.json)
+[![npm](https://img.shields.io/npm/v/mads-constants.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-constants)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-constants)](https://www.npmjs.com/package/mads-constants)
+
 > `mads-constants` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install mads-constants
+```
 
 ## Documentation
 

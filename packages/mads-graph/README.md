@@ -1,6 +1,16 @@
 # `mads-graph`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/mads-graph/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/mads-graph/package.json)
+[![npm](https://img.shields.io/npm/v/mads-graph.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-graph)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-graph)](https://www.npmjs.com/package/mads-graph)
+
 > `mads-graph` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install mads-graph
+```
 
 ## Documentation
 

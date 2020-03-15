@@ -1,6 +1,16 @@
 # `mads-stack`
 
+[![Known Vulnerabilities](https://snyk.io/test/github/Bartozzz/mads/badge.svg?targetFile=packages/mads-stack/package.json)](https://snyk.io/test/github/Bartozzz/mads?targetFile=packages/mads-stack/package.json)
+[![npm](https://img.shields.io/npm/v/mads-stack.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-stack)
+[![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-stack)](https://www.npmjs.com/package/mads-stack)
+
 > `mads-stack` is a part of the [**MADS**](https://github.com/Bartozzz/mads) (_Mathematics, Algorithms, Data Structures_) monorepo, a set of TypeScript utility modules for working with various mathematical functions, algorithms and data structures.
+
+## Installation
+
+```bash
+$ npm install mads-stack
+```
 
 ## Documentation
 
