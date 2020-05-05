@@ -24,7 +24,7 @@
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
     "hygen": "^5.0.3",
-    "jest": "^25.1.0",
+    "jest": "^26.0.0",
     "jest-config": "^26.0.0",
     "lerna": "^3.20.2",
     "prettier": "^1.19.1",
