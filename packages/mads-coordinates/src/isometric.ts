@@ -13,6 +13,6 @@
 export function projectCartesianToIsometric(x: number, y: number, z = 0) {
   return {
     x: x - y,
-    y: (x + y) / 2 - z
+    y: (x + y) / 2 - z,
   };
 }

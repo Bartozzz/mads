@@ -81,7 +81,7 @@ export class Graph<T = any> {
     if (this.adjacencyList.has(x)) {
       this.adjacencyList.set(
         x,
-        this.neighbors(x).filter(a => a !== y)
+        this.neighbors(x).filter((a) => a !== y)
       );
     }
 
