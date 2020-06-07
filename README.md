@@ -21,6 +21,7 @@
 | [`mads-vec3`](/packages/mads-vec3)               | [![npm](https://img.shields.io/npm/v/mads-vec3.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-vec3)               | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-vec3)](https://www.npmjs.com/package/mads-vec3)               |
 | [`mads-queue`](/packages/mads-queue)             | [![npm](https://img.shields.io/npm/v/mads-queue.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-queue)             | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-queue)](https://www.npmjs.com/package/mads-queue)             |
 | [`mads-stack`](/packages/mads-stack)             | [![npm](https://img.shields.io/npm/v/mads-stack.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-stack)             | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-stack)](https://www.npmjs.com/package/mads-stack)             |
+| [`mads-heap`](/packages/mads-heap)               | [![npm](https://img.shields.io/npm/v/mads-heap.svg?maxAge=2592000)](https://www.npmjs.com/package/mads-heap)               | [![Dependency Status](https://david-dm.org/Bartozzz/mads.svg?path=packages/mads-heap)](https://www.npmjs.com/package/mads-heap)               |
 | <!-- Inject auto-generated packages -->          |
 
 ## Contributing
