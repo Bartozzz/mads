@@ -40,6 +40,6 @@
     "rollup-plugin-typescript2": "^0.27.2",
     "typedoc": "^0.19.1",
     "typedoc-plugin-markdown": "^2.2.17",
-    "typescript": "^3.8.3"
+    "typescript": "^4.0.2"
   }
 }
